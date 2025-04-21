@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Портфолио Дилшода Пирматова</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .project {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 45%;
+            padding: 15px;
+            transition: transform 0.3s;
+        }
+        .project:hover {
+            transform: scale(1.05);
+        }
+        .project h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .project p {
+            font-size: 1em;
+            margin: 10px 0;
+        }
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .project a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Портфолио Дилшода Пирматова</h1>
+        <p>Привет! Я разработчик, работающий с Django, Python и многими другими технологиями.</p>
+    </header>
+
+    <div class="projects">
+        <div class="project">
+            <h2>Проект 1: Библиотека на Django</h2>
+            <p>Веб-приложение для управления библиотекой с возможностью создания коротких ссылок на книги.</p>
+            <a href="https://github.com/Pirmatov-Dilshod/library_project" target="_blank">Посмотреть на GitHub</a>
+        </div>
+
+        <div class="project">
+            <h2>Проект 2: API для коротких ссылок</h2>
+            <p>Сервис для создания и отслеживания коротких ссылок с использованием Django и DRF.</p>
+            <a href="https://github.com/Pirmatov-Dilshod/url-shortener" target="_blank">Посмотреть на GitHub</a>
+        </div>
+
+        <div class="project">
+            <h2>Проект 3: Система авторизации</h2>
+            <p>Простой проект с использованием JWT для аутентификации пользователей в Django.</p>
+            <a href="https://github.com/Pirmatov-Dilshod/auth-system" target="_blank">Посмотреть на GitHub</a>
+        </div>
+
+        <!-- Добавь сюда другие проекты по аналогии -->
+    </div>
+</body>
+</html>
